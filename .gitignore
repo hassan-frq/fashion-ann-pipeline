@@ -1,0 +1,17 @@
+# Python / venv
+venv/
+__pycache__/
+*.pyc
+
+# DVC
+.dvc/cache
+.dvc/tmp
+.dvc/tmp/gdrive-user-credentials.json
+
+# Model weights handled by DVC, not Git
+*.h5
+
+# DVC-tracked data/model folders (Git only tracks the .dvc pointer files)
+/data/raw
+/data/processed
+/models
