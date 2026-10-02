@@ -9,4 +9,4 @@ remote.
 
 Classify a 28x28 grayscale Fashion-MNIST image into one of 10 clothing
 categories using a dense ANN (no convolutions). Target: >= 85% test
-accuracy.
+accuracy.Typo fix
