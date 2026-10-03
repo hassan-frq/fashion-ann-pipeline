@@ -14,4 +14,3 @@ __pycache__/
 # DVC-tracked data/model folders (Git only tracks the .dvc pointer files)
 /data/raw
 /data/processed
-/models
