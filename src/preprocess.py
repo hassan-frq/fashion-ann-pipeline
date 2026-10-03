@@ -34,7 +34,8 @@ def main():
     train_raw = np.load(os.path.join(RAW_DIR, "train.npz"))
     test_raw = np.load(os.path.join(RAW_DIR, "test.npz"))
 
-    x_train_full = train_raw["images"].astype("float32") / 255.0 * 1.0
+
+    x_train_full = train_raw["images"].astype("float32") / 255.0
     y_train_full = train_raw["labels"]
     x_test = test_raw["images"].astype("float32") / 255.0
     y_test = test_raw["labels"]
